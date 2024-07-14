@@ -1,3 +1,5 @@
+"use client"
+
 import Navbar from '@/components/Navbar'
 import RandomLetter from '@/components/RandomLetter'
 import React from 'react'

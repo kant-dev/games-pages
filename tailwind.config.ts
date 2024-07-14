@@ -13,6 +13,19 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      animation: {
+        'toLeft':'',
+      },
+      keyframes:{
+        'toLeft':{
+          '0%':{transform:'translateX(0)'},
+          '100%':{transform:'translateX(-100%)'}
+        },
+        'toRight':{
+          '0%':{transform:'translateX(0)'},
+          '100%':{transform:'translateX(100%)'}
+        },
+      }
     },
   },
   plugins: [],
